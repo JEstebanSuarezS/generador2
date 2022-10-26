@@ -1,0 +1,108 @@
+.btn-twitter{
+    background-color: #31a1f2;
+    color: white;
+}
+
+a.btn-twitter:hover{
+    color: white;
+    box-shadow: -2px 3px 6px black;
+}
+
+/* GLOBAL */
+
+body{
+    background-image: url(https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1531115957/content-items/002/417/023/CAMINANDO_Escenario-original.gif?1531115957);
+    background-size: cover;
+}   
+body, html, .container, .row{
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+/*
+
+    ESTILOS FORMULARIO
+
+*/
+
+div.col-lg-4
+{
+    border: 10px solid transparent;
+    border-image: linear-gradient(to right, #fffb00, #ff9100) 1;
+    background-image: linear-gradient(to right, #fffb004b, #ff9100b9);
+}
+
+button.btn-success
+{
+    margin: 10px 0px;
+    background-image: linear-gradient(to right, #fffb00, #ff9100);
+    border: 0;
+}
+
+div.form-group{
+    margin: 10px auto;
+}
+
+/*
+
+    ESTILOS TARJETA
+    
+*/
+
+.col-lg-7 .card-header, .card-footer{
+    background-image: linear-gradient(to right, #fffb00, #ff9100);
+    color: white;
+    font-weight: 700;
+}
+
+.card-body
+{   
+    background-image: url(https://i.pinimg.com/originals/f0/73/45/f07345a2dd45f04a487bb0f047c15be7.gif);
+    background-size: cover;
+}
+
+.card-content
+{
+    background-color: rgba(255, 255, 255, 0.247);
+    width: fit-content;
+    margin: 5px auto;
+    padding: 50px 20px;
+    
+}
+
+.card-content img
+{
+    border-radius: 100%;
+    width: 278px;
+    height: 141px;
+    margin: 0px auto 25px auto;
+}
+
+.card-title
+{
+    font-weight: 700;
+    background: linear-gradient(to bottom,#ff6600ea, #ffae00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Student
+{
+    font-weight: 700;
+}
+
+.Aprendido
+{
+    font-size: 20px;
+}
+
+.label-name, .label-gmail{
+    font-weight: 600;
+}
